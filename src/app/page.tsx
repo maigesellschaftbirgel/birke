@@ -1,8 +1,20 @@
+import NavigationBar from "@/_components/navigation-bar/navigation-bar";
+import Header from "@/_components/header";
+import Footer from "@/_components/footer";
+import EventSection from "@/_components/event-section";
+import Drawer from "@/_components/drawer";
+
 export default function Home() {
   return (
-    <>
-      <h1 className="text-3xl">Überschrift</h1>
-      <button className="bg-amber-400">Hello World</button>
-    </>
+    <Drawer>
+      <NavigationBar />
+
+      <Header />
+      <main>
+        <p className="p-8 text-xs font-light">• • • • • • •</p>
+        <EventSection />
+      </main>
+      <Footer />
+    </Drawer>
   );
 }

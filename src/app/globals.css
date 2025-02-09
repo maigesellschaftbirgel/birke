@@ -1,4 +1,41 @@
 @import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default;
+}
+@plugin "daisyui/theme" {
+  name: "mgb-light";
+  default: true;
+  prefersdark: false;
+  color-scheme: "light";
+  --color-base-100: var(--color-cream-100);
+  --color-base-200: var(--color-cream-200);
+  --color-base-300: var(--color-cream-300);
+  --color-base-content: var(--color-huntergreen-700);
+  --color-primary: var(--color-huntergreen-700);
+  --color-primary-content: var(--color-huntergreen-100);
+  --color-secondary: var(--color-cream-100);
+  --color-secondary-content: var(--color-cream-900);
+  --color-accent: var(--color-burgundy-950);
+  --color-accent-content: var(--color-huntergreen-100);
+  --color-neutral: var(--color-huntergreen-900);
+  --color-neutral-content: var(--color-huntergreen-200);
+  --color-info: oklch(29% 0.066 243.157);
+  --color-info-content: oklch(90% 0.058 230.902);
+  --color-success: oklch(76% 0.177 163.223);
+  --color-success-content: oklch(37% 0.077 168.94);
+  --color-warning: oklch(76% 0.188 70.08);
+  --color-warning-content: oklch(96% 0.059 95.617);
+  --color-error: oklch(50% 0.213 27.518);
+  --color-error-content: oklch(93% 0.032 17.717);
+  --radius-selector: 0.5rem;
+  --radius-field: 0.25rem;
+  --radius-box: 0.5rem;
+  --size-selector: 0.3125rem;
+  --size-field: 0.3125rem;
+  --border: 1px;
+  --depth: 1;
+  --noise: 1;
+}
 
 @layer utilities {
   body {
@@ -13,4 +50,46 @@
   h6 {
     font-family: var(--font-playfair-display);
   }
+
+  .clip-diagonal {
+    clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
+  }
+}
+
+@theme {
+  --color-huntergreen-50: #f3faf3;
+  --color-huntergreen-100: #e4f4e6;
+  --color-huntergreen-200: #cae8cd;
+  --color-huntergreen-300: #a0d5a8;
+  --color-huntergreen-400: #6eba7a;
+  --color-huntergreen-500: #4a9d57;
+  --color-huntergreen-600: #388143;
+  --color-huntergreen-700: #2c5f34;
+  --color-huntergreen-800: #295230;
+  --color-huntergreen-900: #234429;
+  --color-huntergreen-950: #0f2413;
+
+  --color-burgundy-50: #fef1f9;
+  --color-burgundy-100: #fee5f6;
+  --color-burgundy-200: #ffcbee;
+  --color-burgundy-300: #ffa0df;
+  --color-burgundy-400: #ff66c7;
+  --color-burgundy-500: #fc38ad;
+  --color-burgundy-600: #ec168b;
+  --color-burgundy-700: #ce086e;
+  --color-burgundy-800: #aa0a5b;
+  --color-burgundy-900: #8d0e4e;
+  --color-burgundy-950: #660033;
+
+  --color-cream-50: #fefeec;
+  --color-cream-100: #fdfbd4;
+  --color-cream-200: #faf48d;
+  --color-cream-300: #f7e952;
+  --color-cream-400: #f5db2a;
+  --color-cream-500: #eebd12;
+  --color-cream-600: #d3950c;
+  --color-cream-700: #af6c0e;
+  --color-cream-800: #8e5412;
+  --color-cream-900: #754512;
+  --color-cream-950: #432405;
 }
