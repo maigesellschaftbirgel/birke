@@ -1,0 +1,85 @@
+[
+  {
+    "id": 0,
+    "title": "2000er Party",
+    "date": "2025-04-25T17:00:00Z",
+    "description": "Unsere legendäre Freitagsdisco mit den besten Hits der 2000er. Nicht den Vorverkauf verpassen!",
+    "entryFee": "10,00 €",
+    "location": "Dorfplatz Birgel",
+    "image": "2000er_party.jpg",
+    "ticketLink": "http://maigesellschaftbirgel.de/",
+    "highlights": [
+      "🍹 Cocktailbar",
+      "🎧 DJ",
+      "🎪 Außenbereich",
+      "🍻 Ausschank",
+      "🍟 Imbiss",
+      "🚫 Ab 16 Jahre",
+      "💳 Kartenzahlung"
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Königsball",
+    "date": "2025-04-26T17:00:00Z",
+    "description": "Das Maikönigspaar wird abgeholt und feierlich gekrönt, anschließend steigt die 70er 80er 90er Afterparty.",
+    "entryFee": "5,00 €",
+    "location": "Dorfplatz Birgel",
+    "image": "koenigsball.webp",
+    "highlights": [
+      "👑 Traditionelle Krönung",
+      "💃 Tanz",
+      "🎧 70er 80er 90er Afterparty",
+      "🎪 Außenbereich",
+      "🍻 Fassbier",
+      "🍟 Imbiss"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Maizug",
+    "date": "2025-04-27T09:00:00Z",
+    "description": "Nach dem Frühshoppen geht um 14:30 Uhr der Festzug durch Birgel. Gegen 17 Uhr findet die Tombola statt.",
+    "location": "Dorfplatz Birgel",
+    "image": "maizug.jpg",
+    "highlights": [
+      "🌄 Frühshoppen",
+      "👨‍💼 Umzug",
+      "🏷️ Tombola",
+      "🍻 Fassbier",
+      "🍰 Cafetaria",
+      "🍟 Imbiss"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Mainacht",
+    "date": "2025-04-30T16:00:00Z",
+    "description": "Mit der Mainacht feiern wir traditionell den Beginn des Mai. Der Dorfsmaibaum wird am Dorfplatz geschmückt und um 18 Uhr aufgestellt. Anschließend wird der Königsmaibaum zum Maikönig getragen und ebenfalls aufgerichtet.",
+    "location": "Dorfplatz Birgel",
+    "image": "mainacht.jpg",
+    "highlights": [
+      "🔥 Maifeuer",
+      "🌳 Baum aufstellen",
+      "⛺️ Überdachte Sitzgelegenheiten",
+      "🍻 Ausschank",
+      "🍗 Grillspezialitäten",
+      "💳 Kartenzahlung"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Vatertagsfest",
+    "date": "2025-05-29T09:00:00Z",
+    "description": "Beim Vatertagsfest gibt es neben dem Grill und der Cafeteria auch eine Hüpfburg für die kleinen Gäste.",
+    "location": "Grillhütte Birgel",
+    "highlights": [
+      "🥇 2. Maibaumweitwurfweltmeisterschaft",
+      "🍻 Fassbier",
+      "☕️ Cafetaria",
+      "🍮 Reibekuchen",
+      "🍗 Grillspezialitäten",
+      "💳 Kartenzahlung"
+    ]
+  }
+]

@@ -49,6 +49,7 @@
   h5,
   h6 {
     font-family: var(--font-playfair-display);
+    font-variant-numeric: lining-nums proportional-nums;
   }
 
   .clip-diagonal {
@@ -92,4 +93,6 @@
   --color-cream-800: #8e5412;
   --color-cream-900: #754512;
   --color-cream-950: #432405;
+
+  --color-card: #e3e1b1;
 }
